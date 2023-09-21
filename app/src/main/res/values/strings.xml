@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">EcoGamify</string>
     <string name="name">Lim Siew Mooi</string>
+    <string name="user_Name">Name\n</string>
+    <string name="enter_name">Name\n</string>
+    <string name="gender_View">Gender\n</string>
+    <string name="hintname" />
+    <string name="Basic_info">Basic Info</string>
+    <string name="contact_info">Contact Info\n</string>
+    <string name="email">Email</string>
 </resources>
