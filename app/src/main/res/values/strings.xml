@@ -1,4 +1,23 @@
 <resources>
     <string name="app_name">EcoGamify</string>
     <string name="name">Lim Siew Mooi</string>
+    <string name="started_title">Hello You!</string>
+    <string name="started_sub_title">
+        Nice to meet you, come to enjoy your ecolife with us!
+        <br><b>Login</b> if you already have an account.</br>
+        <br><b>Register</b> to get started with the app.</br>
+    </string>
+    <string name="secure_safe_img">Secure Safe</string>
+    <string name="illustration_im" />
+    <string name="btn_register">REGISTER</string>
+    <string name="illustration_img">Illustration Image</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="login_title">Login to app</string>
+
+
+    <string name="login_sub_title">
+        <font color="#00C9B8"><b>Login</b></font>
+        if you already have an account.
+    </string>
+    <string name="login_email">Your email or username</string>
 </resources>
