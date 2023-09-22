@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <!--Testing adding by yuvon-->
+        <!--code review-->
 
         <!-- Content within the ScrollView -->
         <TextView
