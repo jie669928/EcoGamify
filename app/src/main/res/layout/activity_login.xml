@@ -29,7 +29,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_login_title" />
 
-    <com.google.android.material.textfield.TextInputLayout
+<!--    <EditText-->
+<!--        android:id="@+id/til_email"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:ems="10"-->
+<!--        android:hint="Your username or email"-->
+<!--        android:inputType="text"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tv_login_sub_title" />-->
+
+        <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,7 +50,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_login_sub_title"
-        app:startIconDrawable="@drawable/ic_circle_account">
+        app:startIconDrawable="@drawable/ic_circle_account"
+        >
+
+
+
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_email"
@@ -46,5 +62,8 @@
             android:layout_height="wrap_content" />
 
     </com.google.android.material.textfield.TextInputLayout>
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
