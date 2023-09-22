@@ -7,6 +7,21 @@
     android:background="#E5EFEF">
 
 
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--Testing adding by yuvon-->
+
+        <!-- Content within the ScrollView -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is a long list of items that you can scroll through."
+            android:contentDescription="Description of the scrollable content."
+            />
+    </ScrollView>
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
         android:layout_width="377dp"
@@ -15,9 +30,10 @@
         android:background="#FFF8E1"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title_basic">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.678">
 
 
         <ImageView
@@ -62,16 +78,6 @@
             app:layout_constraintStart_toStartOf="@+id/editTextText"
             app:layout_constraintTop_toBottomOf="@+id/editTextText" />
 
-        <TextView
-            android:id="@+id/contact"
-            android:layout_width="171dp"
-            android:layout_height="42dp"
-            android:text="@string/contact_info"
-            android:textSize="@dimen/title"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/gender"
-            app:layout_constraintTop_toBottomOf="@+id/gender" />
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -81,23 +87,18 @@
         android:layout_height="wrap_content"
         android:text="@string/Basic_info"
         android:textSize="@dimen/title"
-        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
         app:layout_constraintEnd_toEndOf="@+id/contact"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.296"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        tools:layout_editor_absoluteY="126dp" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="381dp"
         android:layout_height="156dp"
         android:background="#FFF8E1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="459dp">
 
 
         <TextView
@@ -121,7 +122,6 @@
             app:layout_constraintStart_toStartOf="@+id/email"
             app:layout_constraintTop_toBottomOf="@+id/email" />
 
-
         <TextView
             android:id="@+id/phone"
             android:layout_width="76dp"
@@ -143,6 +143,15 @@
             app:layout_constraintStart_toStartOf="@+id/phone"
             app:layout_constraintTop_toBottomOf="@+id/phone" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="171dp"
+        android:layout_height="42dp"
+        android:text="@string/contact_info"
+        android:textSize="@dimen/title"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="419dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
