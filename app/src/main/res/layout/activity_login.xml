@@ -53,9 +53,6 @@
         app:startIconDrawable="@drawable/ic_circle_account"
         >
 
-
-
-
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_email"
             android:layout_width="match_parent"
