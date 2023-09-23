@@ -55,4 +55,18 @@
     <string name="beach_category">Cleaning Up The Environment</string>
     <string name="plant_native_category">Plant Native Species</string>
     <string name="recycle_category">Reduce, Reuse, Replace and Recycle</string>
+
+    <string name="address_Info">Address Info</string>
+    <string name="home_address">Address</string>
+    <string name="work_address">Work\n</string>
+    <string name="password">Password\n</string>
+    <string name="password_info">Password\n</string>
+    <string name="empty" />
+    <string name="plant_badge">Plant\n</string>
+    <string name="ocean_cleaning">Ocean Clean Up</string>
+    <string name="score">../6</string>
+    <string name="scorebar">Score</string>
+    <string name="plantsroce">../6</string>
+    <string name="recyclebadge">Recycle</string>
+    <string name="recycle_sroce">../6\n</string>
 </resources>

@@ -17,7 +17,7 @@ class HomeCategoryActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home_category)
-//        loadFragment(HomeFragment())
+
         bottomNav = findViewById(R.id.bottomNav) as BottomNavigationView
         // Select the "Home" menu item by default
         bottomNav.selectedItemId = R.id.home
