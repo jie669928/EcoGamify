@@ -3,6 +3,7 @@ package com.example.ecogamify
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.databinding.DataBindingUtil
 import com.example.ecogamify.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
@@ -11,10 +12,10 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_login)
 
         binding.btnLogin.setOnClickListener{
-            startActivity(Intent(this, HomeActivity::class.java))
+            startActivity(Intent(this, HomeCategoryActivity::class.java))
         }
         binding.tvHaventAccount.setOnClickListener{
             startActivity(Intent(this, RegisterActivity::class.java))

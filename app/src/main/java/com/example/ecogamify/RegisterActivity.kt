@@ -3,6 +3,7 @@ package com.example.ecogamify
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.databinding.DataBindingUtil
 import com.example.ecogamify.databinding.ActivityRegisterBinding
 
 class RegisterActivity : AppCompatActivity() {
@@ -11,7 +12,7 @@ class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityRegisterBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_register)
 
         binding.btnRegister.setOnClickListener{
             startActivity(Intent(this, LoginActivity::class.java))
