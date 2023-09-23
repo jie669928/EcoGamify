@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5EFEF">
+
+
+    <TextView
+        android:id="@+id/recycle_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recyclebadge"
+        android:textSize="@dimen/badge_title"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="156dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recycle_title" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="417dp"
+        android:layout_height="192dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/recycle_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/top" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="93dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintBottom_toTopOf="@+id/recycle_title"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:srcCompat="@drawable/plant_badge" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="369dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFF8E1"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar">
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="96dp"
+            android:layout_height="87dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="6dp"
+            android:contentDescription=' '
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton14"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/recycle_badge_level1" />
+
+        <ImageButton
+            android:id="@+id/imageButton14"
+            android:layout_width="96dp"
+            android:layout_height="87dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="6dp"
+            android:contentDescription=' '
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton16"
+            app:layout_constraintStart_toEndOf="@+id/imageButton7"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/recycle_badge_level2" />
+
+        <ImageButton
+            android:id="@+id/imageButton16"
+            android:layout_width="96dp"
+            android:layout_height="87dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="6dp"
+            android:contentDescription=' '
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton14"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/recycle_badge_level3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="369dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="98dp"
+        android:background="#FFF8E1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+
+        <ImageButton
+            android:id="@+id/imageButton17"
+            android:layout_width="96dp"
+            android:layout_height="87dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="6dp"
+            android:contentDescription=' '
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton18"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/recycle_badge_level4" />
+
+        <ImageButton
+            android:id="@+id/imageButton18"
+            android:layout_width="96dp"
+            android:layout_height="87dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="6dp"
+            android:contentDescription=' '
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton19"
+            app:layout_constraintStart_toEndOf="@+id/imageButton17"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/recycle_badge_level5" />
+
+        <ImageButton
+            android:id="@+id/imageButton19"
+            android:layout_width="96dp"
+            android:layout_height="87dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="6dp"
+            android:contentDescription=' '
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton18"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/recycle_badge_final" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/recycle_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/scorebar"
+        android:textSize="@dimen/name_size"
+        android:contentDescription=' '
+        app:layout_constraintBottom_toTopOf="@+id/recyclescore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/progressBar" />
+
+    <TextView
+        android:id="@+id/recyclescore"
+        android:layout_width="47dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/recycle_sroce"
+        android:textSize="@dimen/title"
+        app:layout_constraintBottom_toBottomOf="@+id/progressBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/progressBar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
