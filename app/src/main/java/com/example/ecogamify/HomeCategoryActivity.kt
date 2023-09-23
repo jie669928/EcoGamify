@@ -17,7 +17,7 @@ class HomeCategoryActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home_category)
-        loadFragment(HomeFragment())
+//        loadFragment(HomeFragment())
         bottomNav = findViewById(R.id.bottomNav) as BottomNavigationView
         // Select the "Home" menu item by default
         bottomNav.selectedItemId = R.id.home
@@ -52,7 +52,7 @@ class HomeCategoryActivity : AppCompatActivity() {
     }
     private  fun loadFragment(fragment: Fragment){
         val transaction = supportFragmentManager.beginTransaction()
-        transaction.replace(R.id.container,fragment)
+        transaction.replace(R.id.constraintLayoutContainer,fragment)
         transaction.commit()
     }
 

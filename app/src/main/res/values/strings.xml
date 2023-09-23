@@ -52,4 +52,7 @@
     <string name="btn_logout">Logout</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="beach_category">Cleaning Up The Environment</string>
+    <string name="plant_native_category">Plant Native Species</string>
+    <string name="recycle_category">Reduce, Reuse, Replace and Recycle</string>
 </resources>
