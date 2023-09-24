@@ -8,7 +8,7 @@
     tools:context=".HomeCategoryActivity">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/beach"
+        android:id="@+id/categories_plant"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:background="@drawable/rounded_button_bg"
@@ -40,7 +40,7 @@
         app:layout_constraintBottom_toTopOf="@+id/recycle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/beach" />
+        app:layout_constraintTop_toBottomOf="@+id/categories_plant" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/recycle"
