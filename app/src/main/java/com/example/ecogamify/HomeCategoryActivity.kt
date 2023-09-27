@@ -17,14 +17,16 @@ class HomeCategoryActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home_category)
-
+        loadFragment(HomeFragment())
         bottomNav = findViewById(R.id.bottomNav) as BottomNavigationView
         // Select the "Home" menu item by default
         bottomNav.selectedItemId = R.id.home
         bottomNav.setOnItemSelectedListener {
             when (it.itemId) {
                 R.id.search -> {
-                    loadFragment(SearchFragment())
+//                    loadFragment(SearchFragment())
+                    val intent = Intent(this, EventsActivity::class.java)
+                    startActivity(intent)
                     true
                 }
                 R.id.education -> {
@@ -32,9 +34,10 @@ class HomeCategoryActivity : AppCompatActivity() {
                     true
                 }
                 R.id.home -> {
-                    // Create an Intent to launch the HomeCategoryActivity
-                    val intent = Intent(this, HomeCategoryActivity::class.java)
-                    startActivity(intent)
+//                    // Create an Intent to launch the HomeCategoryActivity
+//                    val intent = Intent(this, HomeCategoryActivity::class.java)
+//                    startActivity(intent)
+                    loadFragment(HomeFragment())
                     true
                 }
                 R.id.community ->{
@@ -50,10 +53,16 @@ class HomeCategoryActivity : AppCompatActivity() {
             }
         }
     }
-    private  fun loadFragment(fragment: Fragment){
-        val transaction = supportFragmentManager.beginTransaction()
-        transaction.replace(R.id.constraintLayoutContainer,fragment)
-        transaction.commit()
-    }
+        private  fun loadFragment(fragment: Fragment){
+            val transaction = supportFragmentManager.beginTransaction()
+            transaction.replace(R.id.container,fragment)
+            transaction.commit()
+        }
+//    private  fun loadFragment(fragment: Fragment){
+//        val transaction = supportFragmentManager.beginTransaction()
+//        transaction.replace(R.id.constraintLayoutContainer,fragment)
+//        transaction.commit()
+//    }
+
 
 }

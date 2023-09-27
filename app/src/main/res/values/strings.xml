@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">EcoGamify</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="dashboard_heading">Find Amazing events happening around you.</string>
+    <string name="dashboard_sub_title">480 events around you</string>
+    <string name="search_bar_hint">search for event...</string>
+    <string name="dummy_text">Native species, community engagement: More to planting trees than digging and watering</string>
     <string name="name">Lim Siew Mooi</string>
     <string name="user_Name">Name\n</string>
     <string name="enter_name">Name\n</string>
@@ -69,4 +74,16 @@
     <string name="plantsroce">../6</string>
     <string name="recyclebadge">Recycle</string>
     <string name="recycle_sroce">../6\n</string>
+    <string name="event01_description">
+        <b>Native species, community engagement: More to planting trees than digging and watering</b>
+    </string>
+    <string name="event02_description">
+        <b>100 Million Tree Planting Campaign: Know the trees, areas before planting FRIM</b>
+    </string>
+    <string name="event03_description">
+        <b>1 Student 10 Trees Campaign launched in UTAR Kampar</b>
+    </string>
+    <string name="event04_description">
+        <b>Plant A Tree: Goes towards the restoration of the forest corridor along the Lower Kinabatangan</b>
+    </string>
 </resources>
