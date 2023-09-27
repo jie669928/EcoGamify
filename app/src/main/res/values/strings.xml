@@ -62,6 +62,9 @@
     <string name="password">Password\n</string>
     <string name="password_info">Password\n</string>
     <string name="empty" />
+    <string name="phone_hint">Phone Number</string>
+    <string name="email_hint">Email Address</string>
+
     <string name="plant_badge">Plant\n</string>
     <string name="ocean_cleaning">Ocean Clean Up</string>
     <string name="score">../6</string>
@@ -69,4 +72,50 @@
     <string name="plantsroce">../6</string>
     <string name="recyclebadge">Recycle</string>
     <string name="recycle_sroce">../6\n</string>
+    <string name="ecoGamify_top">EcoGamify</string>
+    <string name="accomplishment_view">accomplishments</string>
+    <string name="ocean_level1">New Skill!</string>
+    <string name="requirement1">Collect 10 pieces of trash</string>
+    <string name="button_next">Next</string>
+    <string name="newSkill_requirement2">Participate in 1 beach cleaning events</string>
+    <string name="finished_title">finished!\n</string>
+    <string name="your_certificated">Here are your certificated</string>
+    <string name="share_button">Share\n</string>
+    <string name="ocean_level2">Clean Ambassador</string>
+    <string name="ocean_level3">Ocean Supporter</string>
+    <string name="ocean_requirement6">Save or clean up at least 5 pieces of trash</string>
+    <string name="ocean_requirement5">Participate in at least five ocean cleaning event</string>
+    <string name="ocean_level4">Ocean Guardian</string>
+    <string name="ocean_level5">Ocean Enthusiast</string>
+    <string name="ocean_level6">Eco Warrior</string>
+    <string name="garbage1_add">+</string>
+    <string name="garbage2_add">+</string>
+    <string name="garbage3_add">+</string>
+    <string name="garbage4_add">+</string>
+    <string name="garbage5_add">+</string>
+    <string name="garbage6_add">+</string>
+    <string name="garbage1_amount_view">0</string>
+    <string name="garbage2_amount_view">0</string>
+    <string name="garbage3_amount_view">0</string>
+    <string name="garbage4_amount_view">0</string>
+    <string name="garbage5_amount_view">0</string>
+    <string name="garbage6_amount_view">0</string>
+    <string name="ocean_item_amount_title">Number of item</string>
+    <string name="ocean_total_item_number">0</string>
+    <string name="take_photo">Take a photo\n</string>
+    <string name="garbage6_less">-</string>
+    <string name="garbage5_less">-</string>
+    <string name="garbage4_less">-</string>
+    <string name="garbage3_less">-</string>
+    <string name="garbage2_less">-</string>
+    <string name="garbage1_less">-</string>
+    <string name="work">Work Address\n</string>
+    <string name="address">Address</string>
+    <string name="password_field_description">Please enter your password</string>
+    <string name="password_hint">"password "</string>
+    <string name="work_address_hint">Work Address</string>
+    <string name="work_address_description">Please enter your work address</string>
+
+
+
 </resources>
