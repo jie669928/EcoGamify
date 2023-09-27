@@ -4,4 +4,6 @@
     <dimen name="name_linear">10dp</dimen>
     <dimen name="title">30sp</dimen>
     <dimen name="badge_title">45sp</dimen>
+    <dimen name="clean_title_level1">New Skill!</dimen>
+    <dimen name="badge_title2">40sp</dimen>
 </resources>
