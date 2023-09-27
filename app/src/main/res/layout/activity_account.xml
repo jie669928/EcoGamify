@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5EFEF"
+    tools:context=".Profile_Main_Interface">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/app_name" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+
+        android:scrollIndicators="left"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/navigationbar" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="409dp"
+        android:layout_height="595dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="172dp"
+                    android:layout_height="158dp"
+                    app:layout_constraintBottom_toTopOf="@+id/textView3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/jisoo" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/categories_recycle"
+                    android:layout_width="171dp"
+                    android:layout_height="235dp"
+                    android:layout_marginTop="280dp"
+                    android:background="@drawable/rounded_button_bg"
+                    android:drawableTop="@drawable/plant_badge_130"
+                    android:text="@string/recyclebadge"
+                    android:textColor="#333333"
+                    android:textSize="25sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/categories_ocean"
+                    android:layout_width="171dp"
+                    android:layout_height="235dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/rounded_button_bg"
+                    android:drawableTop="@drawable/result_150"
+                    android:text="@string/ocean_cleaning"
+                    android:textColor="#333333"
+                    android:textSize="25sp"
+                    app:layout_constraintBottom_toTopOf="@+id/categories_recycle"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/categories_plant" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/categories_plant"
+                    android:layout_width="171dp"
+                    android:layout_height="235dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="30dp"
+
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/rounded_button_bg"
+                    android:drawableTop="@drawable/plant_150"
+                    android:text="@string/plant_badge"
+                    android:textColor="#333333"
+                    android:textSize="25sp"
+                    app:layout_constraintBottom_toTopOf="@+id/categories_recycle"
+                    app:layout_constraintEnd_toStartOf="@+id/categories_ocean"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="87dp"
+                    android:layout_height="43dp"
+                    android:text="@string/enter_name"
+                    android:textSize="@dimen/title"
+                    app:layout_constraintBottom_toTopOf="@+id/categories_recycle"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
