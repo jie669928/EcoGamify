@@ -13,49 +13,7 @@
         android:theme="@style/Base.Theme.EcoGamify"
         tools:targetApi="31">
         <activity
-            android:name=".ocean_event"
-            android:exported="false" />
-        <activity
-            android:name=".cleanUp_event"
-            android:exported="false" />
-        <activity
-            android:name=".ocean_cleanUp_event"
-            android:exported="false" />
-        <activity
-            android:name=".ocean_Cleanup_Event"
-            android:exported="false" />
-        <activity
-            android:name=".plant_level1_badge"
-            android:exported="false" />
-        <activity
-            android:name=".ocean_level6_badge"
-            android:exported="false" />
-        <activity
-            android:name=".ocean_level5_badge"
-            android:exported="false" />
-        <activity
-            android:name=".ocean_level4_badge"
-            android:exported="false" />
-        <activity
-            android:name=".ocean_level4"
-            android:exported="false" />
-        <activity
-            android:name=".ocean_level3_badge"
-            android:exported="false" />
-        <activity
-            android:name=".ocean_level2_badge"
-            android:exported="false" />
-        <activity
-            android:name=".ocean_level1_badge"
-            android:exported="false" />
-        <activity
-            android:name=".main_cleanup_badge"
-            android:exported="false" />
-        <activity
-            android:name=".main_plant_badge"
-            android:exported="false" />
-        <activity
-            android:name=".Profile_Main_Interface"
+            android:name=".EventsActivity"
             android:exported="false" />
         <activity
             android:name=".PlantNativeActivity"
@@ -81,10 +39,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
